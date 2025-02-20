@@ -1,0 +1,166 @@
+:root {
+    --backgroud-color-first: #0E100F;
+    --color-second: #F6F5DB
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--backgroud-color-first);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px 40px;
+}
+
+.navbarContainer {
+    display: flex;
+    padding: 20px;
+}
+
+.navAreaOne {
+    flex: 1;
+}
+
+.navAreaTwo {
+    flex: 2;
+    text-align: center;
+}
+
+.navbarContainer a {
+    color: var(--color-second);
+    text-decoration: none;
+    padding: 0 10px;
+
+}
+
+.hireme {
+    color: black !important;
+    background-color: var(--color-second);
+    background: linear-gradient(var(--color-second), #b6b6b600);
+    text-decoration: none;
+    padding: 5px 15px !important;
+    border-radius: 8px;
+}
+
+.hireme:hover {
+    background-color: #838383;
+
+    transition: 0.7s;
+}
+
+.container {
+    display: flex;
+    padding: 50px 10px;
+}
+
+.container .photo {
+    flex: 1;
+
+}
+
+.container .description {
+    margin: 40px 20px;
+    padding: 30px;
+    display: block;
+    flex: 1;
+
+}
+
+.container .photo {
+    margin: 40px 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.container .photo img {
+
+    border-radius: 50%;
+    filter: opacity(70%);
+    filter: grayscale(1);
+    text-align: center;
+    justify-content: center;
+}
+
+h1 {
+    color: var(--color-second);
+    font-weight: 200;
+
+}
+
+p,
+ul,
+li {
+    color: rgb(134, 134, 134);
+    font-size: 16px;
+    font-weight: 100;
+    margin: 30px 5px;
+}
+
+.desc {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+.gallery {
+    flex: 1;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.gallery img {
+    width: 400px;
+    height: auto;
+}
+
+.section2 {
+    margin: 40px 20px;
+    padding: 30px;
+}
+
+.section2 h1 {
+    display: block;
+    width: 100%;
+}
+
+div.gallery {
+    margin: 5px;
+
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid var(--color-second);
+}
+
+div.gallery img:hover {
+
+    width: 110%;
+    transition: all .5s ease 0s;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+
+footer {
+    text-align: center;
+    padding: 3px;
+
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(161, 161, 161);
+}
