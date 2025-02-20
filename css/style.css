@@ -97,6 +97,10 @@ body {
     justify-content: center;
 }
 
+.container .photo img:hover {
+    filter: grayscale(0);
+}
+
 h1 {
     color: var(--color-second);
     font-weight: 200;
