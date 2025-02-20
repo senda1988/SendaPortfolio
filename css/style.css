@@ -17,6 +17,7 @@ body {
 .navbarContainer {
     display: flex;
     padding: 20px;
+
 }
 
 .navAreaOne {
@@ -24,8 +25,21 @@ body {
 }
 
 .navAreaTwo {
-    flex: 2;
+    flex: 1;
     text-align: center;
+}
+
+.navAreaTwo a:hover {
+    font-size: 21px;
+    background-color: var(--color-second);
+    color: #0E100F;
+    transition: all .5s ease 0.2s;
+
+}
+
+.navAreaThree {
+    flex: 1;
+    text-align: right;
 }
 
 .navbarContainer a {
